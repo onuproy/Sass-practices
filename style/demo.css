@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  padding: 5px;
+}
+
+header {
+  background: #ddd;
+  color: #000;
+  font-size: 30px;
+}
+
+nav {
+  padding-left: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-align: center;
+  color: #FFF;
+  background: green;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 400;
+}
+
+nav ul li a:hover {
+  background: #FFF;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #000;
+}
+
+main {
+  background: green;
+  color: #FFF;
+}
+
+#about p {
+  font-size: 15px;
+}
+
+footer {
+  background: black;
+  color: #FFF;
+}
+/*# sourceMappingURL=demo.css.map */

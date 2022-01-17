@@ -1,0 +1,64 @@
+
+// Color vaiable diclaration 
+$header-bgcoler : #ddd;
+$main-bgcoler : green;
+$footer-bgcoler :black;
+$p-color : #FFF;
+$p-fontsize :15px;
+$sp :10px;
+$heading :30px;
+
+// Style Css 
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    padding: 5px;
+}
+header {
+    background: $header-bgcoler;
+    color: #000;
+    font-size: $heading;
+}
+// Nav css
+nav{
+    padding-left: 15px;
+    ul{
+        list-style-type: none;
+        li{
+            display: inline-block;
+            a{
+                text-decoration: none;
+                text-align: center;
+                color: $p-color;
+                background: green;
+                padding: 15px;
+                margin-bottom: 15px;
+                font-size: 14px;
+                display: inline-block;
+                font-weight: 400;
+            }
+            a:hover{
+                background: #FFF;
+                transition: 0.5s;
+                color: #000;
+            }
+        }
+    }
+}
+
+main{
+    background: $main-bgcoler;
+    color: $p-color;
+}
+#about p{
+    font-size: $p-fontsize ;
+}
+footer{
+    background: $footer-bgcoler;
+    color: $p-color;
+}
+
+
